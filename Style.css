@@ -1,0 +1,245 @@
+*,
+*::before,
+*::after
+{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html
+{
+    font-size: 10px;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+
+a
+{
+    display: block;
+    text-decoration: none;
+}
+
+.container
+{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+header 
+{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 8rem;
+    background-color: rgb(0, 0, 0);
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+.nav-link
+{
+    font-size: 2.4rem;
+    color: #fff;
+    padding: 0 3rem;
+    transition: opacity 0.5s;
+}
+
+.nav-link:hover
+{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    background: #fff;
+    border-radius: 40px;
+}
+
+.nav-link-CGL
+{
+    width: 8rem;
+    height: 8rem;
+    background: url("1.jpg") center no-repeat;
+    background-size: 110% 110%;
+}
+
+.CGL
+{
+    height: 35 rem;
+    background-position: center;
+    background: url("images/BG.jpg") center no-repeat;
+    margin-top: 6rem;
+    border-top: none;
+    padding-bottom: 17rem;
+}
+
+
+.Hero
+{
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titlehd
+{
+    margin-top: 4rem;
+    margin-left: -27rem;
+    color: rgb(251, 255, 0);
+    font-size: 25rem;
+    font-family: 'Castellar', sans-serif;
+    padding-top: 8rem;
+    text-align: left;
+
+}
+
+ .titlehd:hover
+{
+    color: rgb(255, 0, 0);
+} 
+
+.sub-title-hd
+{
+    margin-top: -8rem;
+    margin-left: -23rem;
+    color: rgb(217, 255, 0);
+    font-size: 4.5rem;
+    font-family: 'Castellar', sans-serif;
+    text-align: left;
+}
+
+.sub-title-hd:hover
+{
+    color: rgb(255, 0, 0);
+}
+
+.Games
+{
+    color: rgb(255, 187, 0);
+    font-size: 10.0rem;
+    font-family: 'Castellar', sans-serif;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+}
+
+.Games-Display
+{
+    height: 75rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.content
+{
+    padding-top: 5rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(217, 255, 0);
+    font-size: 2.5rem;
+    font-family: 'Castellar', sans-serif;
+}
+
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2
+{
+    color: rgb(255, 255, 255);
+    font-size: 4.2rem;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span
+{
+    color: rgb(255, 0, 0);
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 800;
+}
+
+.content .imgBox
+{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.content .imgBox img
+{
+    max-width: 700px;
+}
+
+.thumb
+{
+    position: relative;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    top: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumb li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover
+{
+    transform: translateY(-25px);
+}
+
+.thumb li img
+{
+    width: 100px;
+    height: 70px;
+}
+
+.thumb li img:hover
+{
+    width: 150px;
+    height: 105px;
+}
+
+.Team
+{
+    color: rgb(255, 187, 0);
+    font-size: 10.0rem;
+    font-family: 'Castellar', sans-serif;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+}
+
+.Team-Display
+{
+    height: 85rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.content .textBox h5
+{
+    color: rgb(255, 255, 255);
+    font-size: 3.2em;
+    line-height: 0.4em;
+    font-weight: 500;
+}
